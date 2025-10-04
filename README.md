@@ -4,7 +4,7 @@ An automated attendance and access control solution using RFID technology, built
 
 ## Features ✨
 - 📡 Real-time attendance tracking with ESP32 + MFRC522 RFID reader
-- 🗄️ Dual database integration: **MongoDB** & **MySQL** for secure user authentication and data management
+- 🗄️ Dual database integration: **MongoDB** for secure user authentication and data management
 - 📱💻 Dual-access control with a mobile application and web interface for flexible management
 - 🔒 Secure user authentication ensuring reliable attendance and access control
 
@@ -12,12 +12,16 @@ An automated attendance and access control solution using RFID technology, built
 - ESP32 microcontroller (e.g., ESP32 DevKit V1)
 - MFRC522 RFID reader module
 - RFID tags/cards
-- Optional: OLED display, buzzer, LEDs for status indication
+- OLED display
+- Buzzer
+- LEDs for status indication
 
 ## Software Components 💻
 - Arduino IDE or PlatformIO for ESP32 firmware development
-- MongoDB and MySQL for backend data storage
-- Mobile app and web interface (details in `/app` folder or link to repo if separate)
+- MongoDB for backend data storage
+
+## Hardware Code 🔌
+- <a href="[https://github.com/KaranMondal/HR-Analytics---Data-Analysis/blob/main/Final%20Dashboard.png](https://github.com/KaranMondal/RFID-Attendance-and-Access-Control-System/blob/master/full_final_pokemon.ino)">Hardware Code</a>
 
 ## Wiring & Pin Configuration 🔌
 | RFID Module Pin | ESP32 Pin | Description                |
