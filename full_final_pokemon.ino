@@ -9,8 +9,8 @@
 #include <HTTPClient.h>
 
 // ---------------- WiFi ----------------
-char ssid[] = "OnePlus 12R";
-char pass[] = "09876543";
+char ssid[] = "Your SSID";
+char pass[] = "Your PASS";
 
 // ---------------- NTP / IST ----------------
 const char* ntpServer = "time.google.com";
@@ -45,7 +45,7 @@ unsigned long previousMillis = 0;
 const long heartbeatInterval = 1000; // 1-second blink for yellow LED
 
 // ---------------- MongoDB REST API ----------------
-const char* serverURL = "http://10.87.14.29:3000/log";
+const char* serverURL = "MONGO API";
 
 // ---------------- Users ----------------
 struct User {
